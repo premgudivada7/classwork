@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./public/assets/css/styles.css">
+</head>
+<body>
+
+    <div id="header"></div>
+
+    <section class="hero">
+        <h1>Welcome to the Library</h1>
+        <p>Discover and borrow your favorite books</p>
+    </section>
+
+    <section class="search-section">
+        <div class="search-form">
+            <h2>Search for a Book</h2>
+            <form action="/search_book" method="post">
+                <input type="text" placeholder="Enter book title or author" name="search" required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <img src="./assets/img/3.jpeg" alt="Wide Selection">
+            <h3>Wide Selection</h3>
+            <p>Choose from thousands of books across various genres.</p>
+        </div>
+        <div class="feature">
+            <img src="./assets/img/easy_borrowing.jpeg" alt="Easy Borrowing">
+            <h3>Easy Borrowing</h3>
+            <p>Borrow books with just a few clicks.</p>
+        </div>
+        <div class="feature">
+            <img src="./assets/img/community_events.jpg" alt="Community Events">
+            <h3>Community Events</h3>
+            <p>Join us for book readings, signings, and more.</p>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src=".public/assets/js/script.js"></script>
+
+</body>
+</html>
